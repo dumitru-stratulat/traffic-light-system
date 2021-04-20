@@ -62,6 +62,19 @@
               (send dc set-brush lightZRect3 'solid)
               (send dc draw-rectangle posX (+ posY height height) width height)
   )
+(define shouldPedestrianLightOn (λ()
+       (cond ((false? pedestrianButton)
+         (set! lightZRect1 black)
+         (set! lightZRect3 green)
+         (send paint refresh)
+         (sleep/yield 5)
+         (set! lightZRect1 red)
+         (set! lightZRect3 black)
+         (send paint refresh)
+         (set! pedestrianButton #t)
+                                )
+                               ))
+  )
 
 
 
@@ -69,12 +82,21 @@
 (define paint(new canvas% [parent frame]
             [paint-callback
             (lambda (canvas dc)
-              ;(firstLight dc )
-              ;(secondLight dc "var")
+
               (lightX1 dc 20 50 20 20)
               (lightX2 dc 430 200 20 20)
               (lightY dc 150 250 20 20)
               (lightZ dc 340 200 15 15)
+              (send dc set-font (make-font 
+                             #:weight 'bold))
+              (send dc set-brush "orange" 'solid)
+              (send dc draw-rectangle 170 90 150 50)
+           
+              (send dc get-text-extent "Hello, World!")
+              (send dc draw-text "ROAD WORKS" 205 110)
+             
+             
+
               
             
               (send dc draw-line 330 100 330 200)
@@ -88,7 +110,7 @@
                 )])) 
 
 (new button% [parent frame]
-             [label "Click Me"]
+             [label "Start"]
              ; Callback procedure for a button click:
              [callback (lambda (button event)
                          ;(send (send paint get-dc) set-brush "green" 'solid)
@@ -156,6 +178,7 @@
                                 
                          (send paint refresh)  
                          (sleep/yield 2)
+                         (shouldPedestrianLightOn )
                                 
                          (set! lightYRect1 red)
                          (set! lightYRect2 amber)
@@ -184,16 +207,7 @@
 
                          (send paint refresh)
                                  
-                         (cond ((false? pedestrianButton)
-                                (set! lightZRect1 black)
-                                (set! lightZRect3 green)
-                                (send paint refresh)
-                                (sleep/yield 5)
-                                (set! lightZRect1 red)
-                                (set! lightZRect3 black)
-                                (send paint refresh)
-                                )
-                               )
+                         (shouldPedestrianLightOn )
                       
                                 
                            ) (range 10))
@@ -201,7 +215,7 @@
                        
                          )])
 (new button% [parent frame]
-             [label "Pedestrian"]
+             [label "Pedestrian button"]
              ; Callback procedure for a button click:
              [callback (lambda (button event)
                          ;(send (send paint get-dc) set-brush "green" 'solid)
