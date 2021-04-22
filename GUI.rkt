@@ -95,10 +95,6 @@
               (send dc get-text-extent "Hello, World!")
               (send dc draw-text "ROAD WORKS" 205 110)
              
-             
-
-              
-            
               (send dc draw-line 330 100 330 200)
               (send dc draw-line 370 100 370 200)
               
@@ -113,7 +109,7 @@
              [label "Start"]
              ; Callback procedure for a button click:
              [callback (lambda (button event)
-                         ;(send (send paint get-dc) set-brush "green" 'solid)
+                  
                          (map (lambda (x)
                          (set! lightZRect1 red) ;red light for pedestrian cross
                          (set! lightYRect1 red) 
@@ -218,7 +214,6 @@
              [label "Pedestrian button"]
              ; Callback procedure for a button click:
              [callback (lambda (button event)
-                         ;(send (send paint get-dc) set-brush "green" 'solid)
                        
                          (set! pedestrianButton #f)
                          
