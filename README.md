@@ -1,3 +1,3 @@
 # traffic-light-system
 
-![Open Source Society University (OSSU)](https://imgur.com/Hz2ERhT.png)
+![](https://imgur.com/Hz2ERhT%10.png)
