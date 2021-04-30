@@ -27,11 +27,6 @@ During the early stages of the project, we have decided to work on our own versi
 
 For our team to be able to successfully complete this Block 1 Project we will need nothing but advanced simulation software running on our computers due to the outbreak of COVID-19, unlike traditionally we would wire up this project manually in a computer lab using Arduino we now have to use simulation software, a good example of that would be Multisim as well as Tinkercad, which is a virtual one-to-one Arduino. Midway through the project we decided that Yash orders the Arduino kit from Michael so that we could be able to assemble the traffic lights, we could’ve stayed with just using Tinkercad but it was wiser to get a real Arduino kit as it makes it much easier for us to understand how the microcontroller works.
 
-# Implementation: 
-
-The very first step to illustrate how an algorithm works is to create lights which have names, x1 x2 for the main road Y, for street traffic lights that intersect the main road Z for pedestrians. The full cycle starts with the main road, x2 light turning on all lights are red in that time while x2 turning green, after some time x2 turn red and x1 turns green, shortly after x1 turns red, there’s a check. If the pedestrian light turns on (button pressed) if yes pedestrian light will turn green after a while it turns red and then cycle continues, Y light turns green before executing transitional procedure(red+amber) after a while the light will turn red, therefore checking function is executing and deciding if pedestrian light should turn green (in case the buttons pressed) if yes the pedestrian light turns green after a while it turns red and this is end of one full cycle.
-
-<img width="493" alt="Screenshot 2021-04-19 at 12 00 22" src="https://user-images.githubusercontent.com/62725538/116682473-34c62c00-a9a6-11eb-983b-137682c35768.png">
 
 # The Start (SOB 20,21): sob - student observable behavior (usually tasks)
 
@@ -62,6 +57,8 @@ As shown on images, we have also created a physical copy of the Arduino, we firs
 # Implementation: 
 
 The very first step to illustrate how an algorithm works is to create lights which have names, x1 x2 for the main road Y, for street traffic lights that intersect the main road Z for pedestrians. The full cycle starts with the main road, x2 light turning on all lights are red in that time while x2 turning green, after some time x2 turn red and x1 turns green, shortly after x1 turns red, there’s a check. If the pedestrian light turns on (button pressed) if yes pedestrian light will turn green after a while it turns red and then cycle continues, Y light turns green before executing transitional procedure(red+amber) after a while the light will turn red, therefore checking function is executing and deciding if pedestrian light should turn green (in case the buttons pressed) if yes the pedestrian light turns green after a while it turns red and this is end of one full cycle.
+
+<img width="493" alt="Screenshot 2021-04-19 at 12 00 22" src="https://user-images.githubusercontent.com/62725538/116682473-34c62c00-a9a6-11eb-983b-137682c35768.png">
 
 # Possible additions:
 
