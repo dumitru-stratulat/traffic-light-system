@@ -39,11 +39,15 @@ The project started with all of us three getting out of our comfort zone and get
 <p float="left">
   <img src="https://user-images.githubusercontent.com/62725538/116674703-e52f3280-a99c-11eb-8b96-f48cc8b3914f.png" width="400" />
   <img src="https://user-images.githubusercontent.com/62725538/116674716-e7918c80-a99c-11eb-9e1b-39d06ab498c4.png" width="500" /> 
-
 </p>
-
-![image](https://user-images.githubusercontent.com/62725538/116675685-fcbaeb00-a99d-11eb-9125-7b3965c0ff62.png)
-
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/62725538/116675685-fcbaeb00-a99d-11eb-9125-7b3965c0ff62.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/62725538/116676007-61764580-a99e-11eb-993d-76a60c0f726c.png" width="400" /> 
+</p>
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/62725538/116676059-7226bb80-a99e-11eb-8cbd-dc8ffeb0bddf.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/62725538/116676783-5243c780-a99f-11eb-97e3-54b119339aa7.png" width="400" /> 
+</p>
 
 
 
