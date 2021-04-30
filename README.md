@@ -3,10 +3,10 @@
 # traffic-light-system
 
 Contributors:
-Dumitru Stratulat
 Jakub Wojcik
 Anil Jason
 Yash Rawat
+Dumitru Stratulat
 
 ![](https://imgur.com/a/bCkzouV.png)
 
