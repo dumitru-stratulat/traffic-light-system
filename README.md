@@ -49,6 +49,30 @@ The project started with all of us three getting out of our comfort zone and get
   <img src="https://user-images.githubusercontent.com/62725538/116676783-5243c780-a99f-11eb-97e3-54b119339aa7.png" width="400" /> 
 </p>
 
+As shown on images, we have also created a physical copy of the Arduino, we first prototyped it on Tinkercad to get a general overview of how it’s going to look like. As shown, there are three different traffic lights as well as a separate pedestrian crossing. We wanted to implement a buzzer, but the Arduino kit supplied to us hasn’t arrived with a buzzer.
+
+# Final State Machine (FSM):
+![image](https://user-images.githubusercontent.com/62725538/116677067-ab136000-a99f-11eb-810c-e32caaaaeca5.png)
+
+# Implementation: 
+
+The very first step to illustrate how an algorithm works is to create lights which have names, x1 x2 for the main road Y, for street traffic lights that intersect the main road Z for pedestrians. The full cycle starts with the main road, x2 light turning on all lights are red in that time while x2 turning green, after some time x2 turn red and x1 turns green, shortly after x1 turns red, there’s a check. If the pedestrian light turns on (button pressed) if yes pedestrian light will turn green after a while it turns red and then cycle continues, Y light turns green before executing transitional procedure(red+amber) after a while the light will turn red, therefore checking function is executing and deciding if pedestrian light should turn green (in case the buttons pressed) if yes the pedestrian light turns green after a while it turns red and this is end of one full cycle.
+
+# Possible additions:
+
+For this project there are several additions we could make, although we added so many different optional things such as the GUI along with the Arduino, I feel like we could’ve made this project even better by enhancing the GUI to make it look even better, but for that we would need to use a different programming language, a good one I would say would be Java Swing as it’s one of the best languages out there to create Graphical User Interfaces. Within the limitations of Racket, we would enhance the overall look of the Interface by coloring buttons and adding different colors to the roadmap. 
+Furthermore, I was thinking to add a buzzer which would alert the pedestrians when they are crossing the road, in one of my Arduino prototypes I implemented a buzzer which buzzes when the green pedestrian light is about to go off to let the pedestrians know that the time is about to run out, I think that this is one of the best features for health and safety as for someone that is blind won’t really know when to cross or not. 
+
+# Conclusion
+
+Summing things up, this Block 1 project has been a really good challenge for us, really testing our limits and showing us how good we are under critical conditions especially tough during COVID-19, many of us were facing personal/family issues but we did the best we could, and I personally believe we did well time wise as well as work wise since we still have a week left when I’m writing this. During the first two weeks of when this projected had been handed over to us we faced numerous team related issues, me an Dumitru have been previously in a different group of three people where they simply decided to stop working in a group even though we completed 30% of the work. Ever since that, me and Dumitru teamed up with Anil and decided to work on this project ourselves. We stuck to our timetable, never missed a meeting and just did the work.
+
+
+
+
+
+
+
 
 
 
