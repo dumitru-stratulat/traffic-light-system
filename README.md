@@ -1,4 +1,5 @@
 
+
 # traffic-light-system
 
 
@@ -8,7 +9,7 @@
 
 Given the graphical representation above, I’ll be vaguely speaking about the initial task released to us as part of Block 1 – Group Work Traffic Light Project. As illustrated above, we can see the set of traffic lights as well as one set of pedestrian crossings along with roadworks in the middle of the junction. Traffic lights labelled X, Y are there to determine traffic flow whilst Y is a pedestrian light displaying only two colours: red, green.
 
-# Introduction 
+# Introduction:
 
 I am writing this documentation to briefly talk about the current Block 1 project that’s been handed over to us. We will be working within a team of 4 individuals which will be responsible for programming, design and prototyping. This project is about putting all of our knowledge gathered from Block 1 design, synoptics, programming as well as physical computing into one. Our challenge we are facing with is to design and prototype a traffic light system to safely control the flow of traffic along a road. A big chunk of this traffic light system will be both the traffic lights themselves, but also temporary traffic lights fitted alongside the roadworks.
 
@@ -30,7 +31,9 @@ For our team to be able to successfully complete this Block 1 Project we will ne
 
 The very first step to illustrate how an algorithm works is to create lights which have names, x1 x2 for the main road Y, for street traffic lights that intersect the main road Z for pedestrians. The full cycle starts with the main road, x2 light turning on all lights are red in that time while x2 turning green, after some time x2 turn red and x1 turns green, shortly after x1 turns red, there’s a check. If the pedestrian light turns on (button pressed) if yes pedestrian light will turn green after a while it turns red and then cycle continues, Y light turns green before executing transitional procedure(red+amber) after a while the light will turn red, therefore checking function is executing and deciding if pedestrian light should turn green (in case the buttons pressed) if yes the pedestrian light turns green after a while it turns red and this is end of one full cycle.
 
-# The Start (SOB 20,21):
+<img width="493" alt="Screenshot 2021-04-19 at 12 00 22" src="https://user-images.githubusercontent.com/62725538/116682473-34c62c00-a9a6-11eb-983b-137682c35768.png">
+
+# The Start (SOB 20,21): sob - student observable behavior (usually tasks)
 
 Just before the start of this project, our team insisted in being very efficient time wise, which persuaded me into creating a Trello account as well as creating a timetable to illustrate how many hours we would need to designate on our project to be able to finish it before the deadline whilst getting our different SOBS observed at the same time. Although it was unnecessary, I still created it as working at home and not attending physical University labs, lectures making uni feel very optional meaning students do experience motivational issues, I know from experience because our team me included didn’t feel motivated to make a start. However, after introducing this timetable and designating the time it drastically changed the team’s workflow as suddenly, we all got inspired and decided to make a start, ever since making a start we have never missed a group meeting and we’ve never missed a mini deadline set by ourselves. For the team meetings we designated ourselves one-hour sessions on Monday mornings, Thursday mornings and Friday mornings where we all met up on Zoom, spoke about the work, and completed it!
 ![image](https://user-images.githubusercontent.com/62725538/116674353-718d2580-a99c-11eb-85b5-43c40de80f4d.png)
