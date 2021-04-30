@@ -1,0 +1,83 @@
+byte crosswalk_button=digitalRead(12);    //That will memorize the state of the button,
+void setup() {
+  pinMode(2, OUTPUT); //GREEN   LED OF THE TRAFFIC Junction 1
+  pinMode(3, OUTPUT); //ORANGE  LED OF THE TRAFFIC Junction 1
+  pinMode(4, OUTPUT);  //RED    LED OF THE TRAFFIC Junction 1
+  pinMode(5, OUTPUT);  //GREEN   LED OF THE TRAFFIC Junction 3
+  pinMode(6, OUTPUT);  //ORANGE LED OF THE TRAFFIC Junction 2
+  pinMode(7, OUTPUT);  //RED    LED OF THE TRAFFIC Junction 2
+  pinMode(8, OUTPUT);   //GREEN LED OF THE TRAFFIC Junction 3
+  pinMode(9, OUTPUT);  //ORANGE LED OF THE TRAFFIC Junction 3
+  pinMode(10,OUTPUT);  //RED    LED OF THE TRAFFIC Junction 3
+  pinMode(11, OUTPUT); //RED    LED OF THE TRAFFIC LIGHTS
+  pinMode(12,INPUT); // BUTTON
+  pinMode(13, OUTPUT); //GREEN LED OF THE TRAFFIC LIGHTS
+}
+int var = 1;
+void loop(){
+ if (crosswalk_button == 1)
+ { var = 0;}
+  {if (var == 0)
+   digitalWrite(4, HIGH);
+   digitalWrite(7, HIGH);
+   digitalWrite(10, HIGH);
+   digitalWrite(13, LOW);
+   digitalWrite(11, HIGH);
+   delay(5000);
+   digitalWrite(11, LOW);
+   digitalWrite(13, HIGH);
+   crosswalk_button =0;
+   var = 1;
+   if (var == 1) //INITIALLY ALL LIGHTS RED (SINCE STARTING )
+    digitalWrite(13, HIGH); // CROSSWALK RED
+    digitalWrite(4, HIGH); // JUNCTION 1 RED ON
+    digitalWrite(7, HIGH); // JUNCTION 2 RED ON
+    digitalWrite(10, HIGH);// JUNCTION 3 RED ON
+    delay(2000);
+    // JUNCTION 1 CYCLE
+    delay(2000);
+    digitalWrite(4, LOW);   // JUCTION 2 RED LIGHT ON
+    delay(200);
+    digitalWrite(2, HIGH);
+    delay(5000);           // JUNCTION 1 GREEN CYCLE
+    digitalWrite(2, LOW);
+    digitalWrite(4, HIGH);
+    digitalWrite(3, HIGH);
+    delay(1000);           // JUNCTION 1  YELLOW  CYCLE
+    digitalWrite(4, LOW);
+    digitalWrite(3, LOW);
+    delay(200);
+    digitalWrite(4, HIGH);  // JUCTION 1 RED LIGHT ON
+    var = 2;
+   if (var == 2) // JUNCTION 2 CYCLE
+    delay(2000);
+    digitalWrite(7, LOW);   // JUCTION 2 RED LIGHT OFF
+    delay(200);
+    digitalWrite(5, HIGH);
+    delay(5000);            // JUCTION 2 GREEN LIGHT CYCLE
+    digitalWrite(5, LOW);
+    delay(200);
+    digitalWrite(7, HIGH);
+    digitalWrite(6, HIGH);
+    delay(1000);            // JUNCTION 2 ORANGE LIGHT CYCLE
+    digitalWrite(7, LOW);
+    digitalWrite(6, LOW);
+    delay(200);
+    digitalWrite(7, HIGH);  // JUCTION 2 RED LIGHT ON
+    var = 3;
+   if (var == 3)  // JUNCTION 3 CYCLE
+    delay(2000);
+    digitalWrite(10, LOW);  // JUCTION 3 RED LIGHT OFF
+    digitalWrite(8, HIGH);
+    delay(5000);            // JUNCTION 2 GREEN LIGHT CYCLE
+    digitalWrite(8, LOW);
+    delay(200);
+    digitalWrite(10, HIGH);
+    digitalWrite(9, HIGH);
+    delay(1000);            // JUNCTION 3 ORANGE LIGHT CYCLE
+    digitalWrite(10, LOW);
+    digitalWrite(9, LOW);
+    delay(200);
+    digitalWrite(10, HIGH);  // JUCTION 3 RED LIGHT ON
+    var = 1;}
+}
