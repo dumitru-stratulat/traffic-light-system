@@ -1,6 +1,11 @@
 
 # traffic-light-system
 
+Contributors:
+Dumitru Stratulat
+Jakub Wojcik
+Anil Jason
+Yash Rawat
 
 ![](https://imgur.com/a/bCkzouV.png)
 
