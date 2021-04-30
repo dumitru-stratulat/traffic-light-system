@@ -34,7 +34,17 @@ The very first step to illustrate how an algorithm works is to create lights whi
 Just before the start of this project, our team insisted in being very efficient time wise, which persuaded me into creating a Trello account as well as creating a timetable to illustrate how many hours we would need to designate on our project to be able to finish it before the deadline whilst getting our different SOBS observed at the same time. Although it was unnecessary, I still created it as working at home and not attending physical University labs, lectures making uni feel very optional meaning students do experience motivational issues, I know from experience because our team me included didn’t feel motivated to make a start. However, after introducing this timetable and designating the time it drastically changed the team’s workflow as suddenly, we all got inspired and decided to make a start, ever since making a start we have never missed a group meeting and we’ve never missed a mini deadline set by ourselves. For the team meetings we designated ourselves one-hour sessions on Monday mornings, Thursday mornings and Friday mornings where we all met up on Zoom, spoke about the work, and completed it!
 ![image](https://user-images.githubusercontent.com/62725538/116674353-718d2580-a99c-11eb-85b5-43c40de80f4d.png)
 
-The project started with all of us three getting out of our comfort zone and getting to know each one another as we were meant to work in our own groups, this wouldn’t be so difficult usually but because of COVID-19 we were forced to interact with strangers until we eventually became friends during the project. We first started of designing our own versions of the FSM until we found the best one out of all of them and decided to use it, we then designated three to four hours studying chapter 6/7 Physical Computing to get a grasp understanding of Arduino. We first made a few basic models to see how the Arduino works, we even made a basic traffic light system with a push button and one set of traffic lights (Red, Amber, Green), followed by a few simple lines of code we made this Arduino work. ![image](https://user-images.githubusercontent.com/62725538/116674703-e52f3280-a99c-11eb-8b96-f48cc8b3914f.png) ![image](https://user-images.githubusercontent.com/62725538/116674716-e7918c80-a99c-11eb-9e1b-39d06ab498c4.png)
+The project started with all of us three getting out of our comfort zone and getting to know each one another as we were meant to work in our own groups, this wouldn’t be so difficult usually but because of COVID-19 we were forced to interact with strangers until we eventually became friends during the project. We first started of designing our own versions of the FSM until we found the best one out of all of them and decided to use it, we then designated three to four hours studying chapter 6/7 Physical Computing to get a grasp understanding of Arduino. We first made a few basic models to see how the Arduino works, we even made a basic traffic light system with a push button and one set of traffic lights (Red, Amber, Green), followed by a few simple lines of code we made this Arduino work. !
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/62725538/116674703-e52f3280-a99c-11eb-8b96-f48cc8b3914f.png" width="400" />
+  <img src="https://user-images.githubusercontent.com/62725538/116674716-e7918c80-a99c-11eb-9e1b-39d06ab498c4.png" width="500" /> 
+
+</p>
+
+![image](https://user-images.githubusercontent.com/62725538/116675685-fcbaeb00-a99d-11eb-9125-7b3965c0ff62.png)
+
+
 
 
 
