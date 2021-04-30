@@ -1,11 +1,12 @@
 
-
 # traffic-light-system
 
 
 ![](https://imgur.com/a/bCkzouV.png)
 
 ![Picture 1](https://user-images.githubusercontent.com/62725538/116269300-03671980-a776-11eb-9a6c-68bce6a2f756.png)
+
+https://user-images.githubusercontent.com/62725538/116686766-3135a380-a9ac-11eb-8a70-2bfb620d6cdf.mov
 
 Given the graphical representation above, I’ll be vaguely speaking about the initial task released to us as part of Block 1 – Group Work Traffic Light Project. As illustrated above, we can see the set of traffic lights as well as one set of pedestrian crossings along with roadworks in the middle of the junction. Traffic lights labelled X, Y are there to determine traffic flow whilst Y is a pedestrian light displaying only two colours: red, green.
 
