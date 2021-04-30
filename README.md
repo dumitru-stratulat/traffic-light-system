@@ -1,4 +1,5 @@
 
+
 # traffic-light-system
 
 Contributors:
@@ -53,6 +54,8 @@ The project started with all of us three getting out of our comfort zone and get
   <img src="https://user-images.githubusercontent.com/62725538/116676059-7226bb80-a99e-11eb-8cbd-dc8ffeb0bddf.png" width="400" />
   <img src="https://user-images.githubusercontent.com/62725538/116676783-5243c780-a99f-11eb-97e3-54b119339aa7.png" width="400" /> 
 </p>
+
+https://user-images.githubusercontent.com/62725538/116691845-5548b300-a9b3-11eb-9037-8765c3f6a9e0.mov
 
 As shown on images, we have also created a physical copy of the Arduino, we first prototyped it on Tinkercad to get a general overview of how it’s going to look like. As shown, there are three different traffic lights as well as a separate pedestrian crossing. We wanted to implement a buzzer, but the Arduino kit supplied to us hasn’t arrived with a buzzer.
 
