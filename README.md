@@ -59,7 +59,7 @@ https://user-images.githubusercontent.com/62725538/116691845-5548b300-a9b3-11eb-
 
 As shown on images, we have also created a physical copy of the Arduino, we first prototyped it on Tinkercad to get a general overview of how it’s going to look like. As shown, there are three different traffic lights as well as a separate pedestrian crossing. We wanted to implement a buzzer, but the Arduino kit supplied to us hasn’t arrived with a buzzer.
 
-# Final State Machine (FSM):
+# Finite State Machine (FSM):
 <img width="2300" alt="Screenshot 2021-04-18 at 11 27 06" src="https://user-images.githubusercontent.com/62725538/116681421-e1071300-a9a4-11eb-921f-e480f940b9fe.png">
 
 
